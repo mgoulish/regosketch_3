@@ -50,8 +50,8 @@ density_range = max_density - min_density
 
 
 # Choose one of these, and comment out the other one.
-scenario = "Moon_Buggy"
-#scenario = "PP&L"
+#scenario = "Moon_Buggy"
+scenario = "PP&L"
 
 
 
@@ -332,5 +332,7 @@ filename = './image.png'
 mpl.imshow ( img )
 mpl.axis ( 'off' )
 mpl.savefig ( filename, bbox_inches='tight', dpi=400 )
+
+print ( f"\n\nWrote image to {filename}\n\n" )
 
 
